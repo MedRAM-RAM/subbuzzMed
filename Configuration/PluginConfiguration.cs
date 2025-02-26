@@ -90,7 +90,7 @@ namespace subbuzz.Configuration
         public SubPostProcessingCfg SubPostProcessing { get; set; }
         public CacheCfg Cache { get; set; }
 
-        public string SubdlApiKey { get; set; } = string.Empty;
+        public const string SubdlApiKey = "ej7KLo18YVcF0vvEjfG5XHeLvr1vcyAF";
 
         public PluginConfiguration()
         {
